@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="calci.css">
+   <title>Calulator</title>
+</head>
+<body>
+
+   <div class="main">
+      <input type="text" id = 'res'>
+      <div class="btn">
+         <input type="button" value = '(' class="in" onclick = "Solve('(')">
+         <input type="button" value = ')' class="in"onclick = "Solve(')')">
+         <input type="button" value = 'ans' class="in" onclick ="Result()">
+         <input type="button" value = 'del' class="in" onclick = "Back('←')">
+         <input type="button" value = 'clear' class="in" onclick = "Clear()">
+         <br>
+         <input type="button" value = '7' class ="num" onclick = "Solve('7')">
+         <input type="button" value = '8' class ="num" onclick = "Solve('8')">
+         <input type="button" value = '9' class ="num" onclick = "Solve('9')">
+         <input type="button" value = '%' class="in" onclick = "Solve('%')">
+         <input type="button" value = '√' class="in" onclick = "Solve('√')">
+         <br>
+         <input type="button" value = '4' class ="num" onclick = "Solve('4')">
+         <input type="button" value = '5' class ="num" onclick = "Solve('5')">
+         <input type="button" value = '6' class ="num" onclick = "Solve('6')">
+         <input type="button" value = 'x' class="in" onclick = "Solve('*')"> 
+         <input type="button" value = '%' class="in" onclick = "Solve('%')">
+         <br>
+         <input type="button" value = '1' class ="num" onclick = "Solve('1')">
+         <input type="button" value = '2' class ="num" onclick = "Solve('2')">
+         <input type="button" value = '3' class ="num" onclick = "Solve('3')">
+         <input type="button" value = '+' class="in" onclick = "Solve('+')">
+         <input type="button" value = '-' class="in" onclick = "Solve('-')">
+         <br>
+         <input type="button" value = '.' class="in" onclick = "Solve('.')">
+         <input type="button" value = '0' class="in" onclick = "Solve('0')">
+         <input type="button" value = '±' class="in" onclick = "Solve('±')">
+         <input style="width:38%" type="button" value = 'ENTER' class="b" onclick = "Result()">
+      </div>
+   </div>
+   <script src = 'calci.js' ></script>
+</body>
+</html>
